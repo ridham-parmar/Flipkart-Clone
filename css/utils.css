@@ -1,0 +1,10 @@
+.flex-all-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-card-item img {
+  height: 17vh;
+}
+

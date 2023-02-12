@@ -1,0 +1,91 @@
+@media screen and (max-width: 1030px) {
+  body {
+    background-color: aqua;
+    /* overflow: hidden; */
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vw;
+  }
+  nav {
+    flex-direction: column;
+  }
+  header {
+    height: 140px;
+  }
+  nav ul {
+    justify-content: center;
+    margin: 1.3vh 0vh;
+  }
+  nav ul li {
+    padding: 0px 4vw;
+  }
+  nav .search {
+    justify-content: center;
+  }
+  .search input {
+    width: 56vw;
+    padding: 1vw;
+    height: 3vh;
+  }
+  .logo1 {
+    height: 2.5vh;
+    width: 2.5vh;
+    position: relative;
+    top: -3.1vh;
+    left: 75.9vw;
+  }
+  .logo1 img {
+    height: 2.5vh;
+  }
+  .box div {
+    padding-top: 1vw;
+    margin: 0px 1vw;
+  }
+  /* .box img {
+    height: 70px;
+  } */
+}
+
+@media screen and (max-width: 512px) {
+  .logo1 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1029px) {
+  .login {
+    position: relative;
+    left: 81vw;
+    top: -5.79vh;
+  }
+  .search input {
+    padding: 13px;
+    height: 4px;
+  }
+  .search input:hover {
+    height: 1vh;
+  }
+  .login input:hover {
+    height: 3.2vh;
+    font-weight: 600;
+  }
+}
+
+@media screen and (max-width: 552px) {
+  .login {
+    left: 39vw;
+    top: -1.79vh;
+  }
+  header {
+    height: 17vh;
+  }
+}
+
+@media screen and (max-width: 513px) {
+  .login {
+    top: 0.9vh;
+  }
+}

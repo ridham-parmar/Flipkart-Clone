@@ -1,0 +1,260 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap");
+
+:root {
+  --main-bg-color: #2874f0;
+}
+
+/* body {
+  width: 1000px;
+  margin: 0 auto;
+} */
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  height: 70px;
+  display: flex;
+}
+header {
+  height: 70px;
+  background-color: var(--main-bg-color);
+  font-family: "Signika Negative", sans-serif;
+  position: sticky;
+  top: 0px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 96px;
+  padding: 0px 30px;
+}
+
+nav ul {
+  height: 70px;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  list-style-type: none;
+  padding: 0px 23px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: white;
+  font-weight: bolder;
+}
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search input {
+  width: 366px;
+  height: 17px;
+  border: 2px darkgray solid;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 0px 42px;
+  font-family: "Signika Negative", sans-serif;
+}
+
+.logo1 {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: -68px;
+}
+.logo1 img {
+  height: 21px;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  width: 15vw;
+}
+
+.login input {
+  height: 28px;
+  width: 15vw;
+  background-color: white;
+  color: blue;
+  border: 2px darkgray solid;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Signika Negative", sans-serif;
+}
+hr {
+  height: 1px;
+  background-color: gray;
+  opacity: 0.3;
+}
+.box {
+  height: 163px;
+  background-color: white;
+  display: flex;
+  /* overflow: scroll; */
+}
+
+.box div {
+  padding-top: 5px;
+  margin: 0px 19px;
+}
+
+.box p {
+  text-align: center;
+  font-family: "Signika Negative", sans-serif;
+  color: black;
+}
+.box a {
+  text-decoration: none;
+}
+.box img {
+  height: 114px;
+}
+.box a:hover {
+  font-weight: bolder;
+}
+.box img:hover {
+  margin: 2px;
+}
+.search input:hover {
+  height: 20px;
+}
+.login input:hover {
+  height: 32px;
+  font-weight: 600;
+}
+.box1 {
+  height: 400px;
+  background-color: rgb(189, 221, 249);
+  display: flex;
+  align-items: center;
+}
+.box1 img {
+  width: 946px;
+  height: 347px;
+}
+.info {
+  background-color: rgb(189, 221, 249);
+  height: 347px;
+  color: black;
+  width: 554px;
+  margin: 0px 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Signika Negative", sans-serif;
+}
+table {
+  height: 290px;
+  width: 350px;
+}
+.journey {
+  display: flex;
+  border: 1px solid black;
+}
+.info1 input {
+  padding: 5px 0px;
+}
+.journey div {
+  margin: 0px 10px;
+}
+
+.tr8 input {
+  width: 114px;
+  margin: 0px 74px;
+}
+.info1 td:hover {
+  font-weight: bolder;
+}
+.plane {
+  height: 347px;
+}
+.container {
+  background-color: white;
+  min-height: calc(100vh - 58px - 12vh - 163px);
+  max-width: 95vw;
+  margin: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  font-family: "Signika Negative", sans-serif;
+  border: 2px solid #8080803d;
+}
+.bold {
+  font-weight: bold;
+}
+.green-color {
+  color: rgb(61, 196, 3);
+}
+.card {
+  height: calc(100vh - 58px - 12vh - 163px);
+  background-color: #808080ad;
+  width: 17vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card p {
+  font-size: 5vh;
+  text-align: center;
+  color: white;
+}
+.sub-card-item {
+  display: flex;
+}
+.view-all input {
+  width: 9vw;
+  height: 6vh;
+  background-color: var(--main-bg-color);
+  color: white;
+  border: 0px solid var(--main-bg-color);
+}
+.view-all input:hover {
+  height: 7vh;
+}
+.card-item {
+  width: 17vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin: 0px 5px;
+}
+.sub-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sub-item img {
+  height: 17vh;
+}
+.sub-item image {
+  margin-bottom: 10vh;
+}
+.sub-item p {
+  text-align: center;
+  margin: 15px 0px;
+}
+footer {
+  height: 10vh;
+  background-color: var(--main-bg-color);
+  color: white;
+  font-family: "Signika Negative", sans-serif;
+}
